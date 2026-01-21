@@ -1,12 +1,8 @@
-# environment variables
+node_modules
 .env
-
-# node modules
-node_modules/
-
-# build files
-dist/
-build/
-
-# logs
-npm-debug.log*
+.env.local
+.env.production
+dist
+build
+uploads
+*.log
